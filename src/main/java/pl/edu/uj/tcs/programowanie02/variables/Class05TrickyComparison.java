@@ -2,9 +2,6 @@ package pl.edu.uj.tcs.programowanie02.variables;
 
 public class Class05TrickyComparison {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		Integer aInt = new Integer(4);
 		Integer bInt = new Integer(4);

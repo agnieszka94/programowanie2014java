@@ -2,9 +2,6 @@ package pl.edu.uj.tcs.programowanie02.variables;
 
 public class Class01BasicOperations {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		int zero = 0;
 		int one = 1;

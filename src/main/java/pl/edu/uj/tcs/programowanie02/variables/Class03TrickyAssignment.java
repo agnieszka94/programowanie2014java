@@ -1,9 +1,7 @@
 package pl.edu.uj.tcs.programowanie02.variables;
 
 public class Class03TrickyAssignment {
-	/**
-	 * @param args
-	 */
+
 	public static void main(String[] args) {
 		Integer aInt = 4;
 		Integer bInt = aInt;

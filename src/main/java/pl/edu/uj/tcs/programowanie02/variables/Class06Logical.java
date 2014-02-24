@@ -7,9 +7,6 @@ public class Class06Logical {
 		return !b;
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		boolean a = true;
 		boolean b = false;

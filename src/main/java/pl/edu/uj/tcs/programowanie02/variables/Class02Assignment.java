@@ -36,7 +36,7 @@ public class Class02Assignment {
 		aStr += 1;
 		System.out.println("aStr = " + aStr);
 		aStr = "4";
-		System.out.println("aStr + 4 + 4 = " + aStr + 4 + 4);
+		System.out.println("aStr + 4 + 4 = " + aStr + 4 + 4);//addition is not associative
 		System.out.println("aStr + (4 + 4) = " + aStr + (4 + 4));
 		System.out.println("(aStr + 4) + 4 = " + (aStr + 4) + 4);
 	}

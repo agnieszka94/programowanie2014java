@@ -6,9 +6,6 @@ public class Class09DontWorryTooMuch {
 		return i == j;
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		String aStr = "Dom";
 		String bStr = "Dom";

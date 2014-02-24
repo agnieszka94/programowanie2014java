@@ -2,9 +2,6 @@ package pl.edu.uj.tcs.programowanie02.variables;
 
 public class Class08Varia {
 
-	/**
-	 * @param args
-	 */
 	@SuppressWarnings("all")
 	public static void main(String[] args) {
 		int a = 0x2f;

@@ -2,9 +2,6 @@ package pl.edu.uj.tcs.programowanie02.variables;
 
 public class Class04Comparison {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		int a = 4;
 		int b = 4;

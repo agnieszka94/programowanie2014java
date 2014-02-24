@@ -2,9 +2,6 @@ package pl.edu.uj.tcs.programowanie02.variables;
 
 public class Class07Casting {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		double d = 1.234d;
 		int i = 2;
