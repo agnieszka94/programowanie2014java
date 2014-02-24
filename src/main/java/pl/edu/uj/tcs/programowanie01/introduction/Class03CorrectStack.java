@@ -1,12 +1,12 @@
-package pl.edu.uj.tcs.programowanie.introduction;
+package pl.edu.uj.tcs.programowanie01.introduction;
 
 import java.util.EmptyStackException;
 
-public class Class02IncorrectStack {
+public class Class03CorrectStack {
 	private Object[] elements;
 	private int size = 0;
 
-	public Class02IncorrectStack(int initialCapacity) {
+	public Class03CorrectStack(int initialCapacity) {
 		this.elements = new Object[initialCapacity];
 	}
 
@@ -18,6 +18,7 @@ public class Class02IncorrectStack {
 	public Object pop() {
 		if (size == 0)
 			throw new EmptyStackException();
+		elements[size] = null;
 		return elements[--size];
 	}
 

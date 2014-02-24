@@ -1,4 +1,4 @@
-package pl.edu.uj.tcs.programowanie.introduction;
+package pl.edu.uj.tcs.programowanie01.introduction;
 
 /**
  * Hello world!

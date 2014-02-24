@@ -1,8 +1,9 @@
-package pl.edu.uj.tcs.programowanie.introduction;
+package pl.edu.uj.tcs.programowanie01.introduction;
 
-public class Class04IncorrectSum {
+public class Class05CorrectSum {
+
 	public static void main(String[] args) {
-		Long sum = 0L;
+		long sum = 0L;
 		for (long i = 0; i < Integer.MAX_VALUE; i++) {
 			sum += i;
 		}
