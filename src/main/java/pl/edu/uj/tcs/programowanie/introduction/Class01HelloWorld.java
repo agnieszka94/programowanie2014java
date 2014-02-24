@@ -1,10 +1,10 @@
-package pl.edu.uj.tcs.programowanie;
+package pl.edu.uj.tcs.programowanie.introduction;
 
 /**
  * Hello world!
  *
  */
-public class App 
+public class Class01HelloWorld 
 {
     public static void main( String[] args )
     {
