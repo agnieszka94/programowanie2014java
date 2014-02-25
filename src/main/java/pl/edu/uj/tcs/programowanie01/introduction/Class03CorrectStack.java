@@ -18,8 +18,9 @@ public class Class03CorrectStack {
 	public Object pop() {
 		if (size == 0)
 			throw new EmptyStackException();
-		elements[size] = null;
-		return elements[--size];
+		Object temp = elements[--size]; 
+		elements[size] = null; 
+		return temp;
 	}
 
 	private void ensureCapacity() {
