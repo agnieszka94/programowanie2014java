@@ -10,9 +10,6 @@ package pl.edu.uj.tcs.programowanie06.creatingobjects;
  */
 public class Class07FinalizeIsBadTaste {
 
-	/**
-	 * @param args
-	 */
 	int i = new java.util.Random().nextInt();
 
 	public void finalize() {

@@ -14,9 +14,6 @@ public class Class14Varargs {
 		System.out.println("Got this " + Arrays.toString(varargs));
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String... args) {
 		avoidIfYouCan("Ala", "ma", "kota");
 		String[] s = { "Ala", "ma", "kota", "?" };

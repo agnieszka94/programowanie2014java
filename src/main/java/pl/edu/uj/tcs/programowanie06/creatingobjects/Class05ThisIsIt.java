@@ -18,9 +18,6 @@ public class Class05ThisIsIt {
 		return this;
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		System.out.println("And the result is: "
 				+ new Class05ThisIsIt(17).bump().bump().bump().a);

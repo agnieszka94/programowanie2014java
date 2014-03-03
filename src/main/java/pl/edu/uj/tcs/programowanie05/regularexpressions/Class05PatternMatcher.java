@@ -25,5 +25,12 @@ public class Class05PatternMatcher {
 					+ mat2.group(2) + "\" position: " + mat2.start() + "-"
 					+ mat2.end());
 		}
+		Pattern pat3 = Pattern.compile("\\d*");
+		Matcher mat3 = pat3.matcher("12+123-67*189");
+		while (mat3.find()) {
+			System.out.println("Found \"" + mat3.group() + "\" "
+					+ " position: " + mat3.start() + "-"
+					+ mat3.end());
+		}
 	}
 }

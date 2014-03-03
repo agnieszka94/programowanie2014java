@@ -31,9 +31,6 @@ public class Class09InitializerBlock {
 				+ s);
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		new Class09InitializerBlock();
 		new Class09InitializerBlock();

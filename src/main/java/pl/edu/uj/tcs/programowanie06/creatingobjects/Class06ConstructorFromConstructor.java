@@ -23,10 +23,6 @@ public class Class06ConstructorFromConstructor {
 		System.out
 				.println("Did something boring, did something amazing, what to do next?");
 	}
-
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		new Class06ConstructorFromConstructor();
 		new Class06ConstructorFromConstructor(174);

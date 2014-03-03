@@ -21,10 +21,6 @@ public class Class12SimpleEnum {
 			return "0000ff";
 		}
 	}
-
-	/**
-	 * @param args
-	 */
 	public static void main(String... args) {
 		Colors a = Colors.BLUE;
 		System.out.println(a + " is color number " + a.ordinal()

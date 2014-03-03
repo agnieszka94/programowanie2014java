@@ -4,9 +4,6 @@ import java.util.Arrays;
 
 public class Class13ConstructingArrays {
 
-	/**
-	 * @param args
-	 */
     public static void main(String[] args) {
         int[] a = { 1, 2, new Integer(17) };
         @SuppressWarnings("unused")

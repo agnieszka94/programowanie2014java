@@ -12,9 +12,6 @@ public class Class01DefaultConstructor {
 		System.out.println("It works!");
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		new Class01DefaultConstructor().itWorks();
 	}

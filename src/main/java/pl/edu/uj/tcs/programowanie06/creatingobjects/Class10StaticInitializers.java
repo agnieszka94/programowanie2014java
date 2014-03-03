@@ -27,9 +27,6 @@ public class Class10StaticInitializers {
 		}
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		new RealTest();
 		new RealTest();

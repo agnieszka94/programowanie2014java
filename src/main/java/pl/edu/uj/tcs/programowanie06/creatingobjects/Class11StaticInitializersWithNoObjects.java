@@ -34,11 +34,11 @@ public class Class11StaticInitializersWithNoObjects {
 	 */
 	public static void main(String[] args) throws Exception {
 		System.out.println("inside InitialValuesStaticPart2.main(...)");
-		Class.forName("part06creatingobjects.Class11StaticInitializersWithNoObjects$RealTest");
+		Class.forName("pl.edu.uj.tcs.programowanie06.creatingobjects.Class11StaticInitializersWithNoObjects$RealTest");
 		System.out.println("one");
-		Class.forName("part06creatingobjects.Class11StaticInitializersWithNoObjects$RealTest");
+		Class.forName("pl.edu.uj.tcs.programowanie06.creatingobjects.Class11StaticInitializersWithNoObjects$RealTest");
 		System.out.println("two");
-		Class.forName("part06creatingobjects.Class11StaticInitializersWithNoObjects$RealTest");
+		Class.forName("pl.edu.uj.tcs.programowanie06.creatingobjects.Class11StaticInitializersWithNoObjects$RealTest");
 		System.out.println("three");
 	}
 

@@ -21,9 +21,6 @@ public class Class08InitialValues {
 				+ aStr + "\" bStr is " + bStr + " and t is " + t);
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		new Class08InitialValues();
 	}

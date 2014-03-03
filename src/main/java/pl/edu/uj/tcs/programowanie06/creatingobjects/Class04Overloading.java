@@ -23,9 +23,6 @@ public class Class04Overloading {
 		System.out.println("Got this: " + i);
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		for (int i = 0; i < 5; i++)
 			new Class04Overloading();

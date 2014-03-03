@@ -8,15 +8,10 @@ package pl.edu.uj.tcs.programowanie06.creatingobjects;
  */
 public class Class03ConstructorWithArguments {
 
-    /**
-     * @param i
-     */
     public Class03ConstructorWithArguments(int i) {
         System.out.println("Constructing... " + i);
     }
-	/**
-	 * @param args
-	 */
+
     public static void main(String[] args) {
         for(int i = 0; i < 5; i++) new Class03ConstructorWithArguments(i);
         // new ParametrizedConstructor(); will NOT work

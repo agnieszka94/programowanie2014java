@@ -12,9 +12,6 @@ public class Class02ParameterLessConstructor {
 		System.out.println("Constructing...");
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		for (int i = 0; i < 5; i++)
 			new Class02ParameterLessConstructor();
