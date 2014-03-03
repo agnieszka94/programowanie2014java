@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class Class08ScannerWithPattern {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		String pat = "\\+.*";
 		Scanner sca = new Scanner("+ala-ma-kota+\n-kot+ma+ale-\n");
