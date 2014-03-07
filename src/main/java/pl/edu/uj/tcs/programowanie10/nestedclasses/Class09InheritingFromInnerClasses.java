@@ -23,7 +23,7 @@ public class Class09InheritingFromInnerClasses {
 			outer.super();
 			// myDescription = "I am the derived class of inner of " + id;
 			// compile-time error
-			myDescription = "hghjh" + outer.id;
+			myDescription = "Derived " + outer.id;
 		}
 	}
 
