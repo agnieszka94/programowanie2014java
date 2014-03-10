@@ -60,7 +60,7 @@ public class Class03LinkWithOuterPile implements Iterable<Integer> {
 		Iterator<Integer> itOne = tempPile.iterator(), itTwo = tempPile
 				.iterator();
 		for (int i = 0; i < 10; i++) {
-			if ((tempRand.nextBoolean() && itOne.hasNext() || !itTwo.hasNext())) {
+			if (tempRand.nextBoolean() && itOne.hasNext() || !itTwo.hasNext()) {
 				System.out.println("Iterator one: " + itOne.next());
 				continue;
 			}
