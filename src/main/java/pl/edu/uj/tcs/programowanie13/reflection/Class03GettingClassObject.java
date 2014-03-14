@@ -17,7 +17,7 @@ public class Class03GettingClassObject {
             System.out.println("Yep, exceptions possible here.");
         }
         try {
-            System.out.println(Class.forName("part13reflection.Class03GettingClassObject"));
+            System.out.println(Class.forName("pl.edu.uj.tcs.programowanie13.reflection.Class03GettingClassObject"));
         } catch (ClassNotFoundException ex) {
             System.out.println("Yep, exceptions possible here.");
         }

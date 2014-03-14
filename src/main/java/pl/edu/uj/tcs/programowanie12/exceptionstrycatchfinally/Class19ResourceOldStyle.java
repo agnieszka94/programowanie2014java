@@ -23,8 +23,11 @@ public class Class19ResourceOldStyle {
 
 		void read() throws IOException {
 			System.out.println("Reading from file");
-			if (rG.nextBoolean())
+			if (rG.nextBoolean()) 
+			{
+				System.out.println("//failed read");
 				throw new IOException("Cannot read");
+			}
 			System.out.println("Reading succesfull");
 		}
 		public void close() throws IOException {
@@ -45,9 +48,9 @@ public class Class19ResourceOldStyle {
 				r.close();
 			}
 		} catch (FileNotFoundException e) {
-			System.out.println("FAIL: the file was not found");
+			System.out.println("FAIL: the file was not found: " + e);
 		} catch (IOException e) {
-			System.out.println("FAIL: communication with file failed.");
+			System.out.println("FAIL: communication with file failed: " + e);
 		}
 	}
 

@@ -24,7 +24,10 @@ public class Class20ResourceNewStyle {
 		void read() throws IOException {
 			System.out.println("Reading from file");
 			if (rG.nextBoolean())
+			{
+				System.out.println("//failed read");
 				throw new IOException("Cannot read");
+			}
 			System.out.println("Reading succesfull");
 		}
 		@Override
@@ -41,9 +44,9 @@ public class Class20ResourceNewStyle {
 		try (Resource r = new Resource()) {
 			r.read();
 		} catch (FileNotFoundException e) {
-			System.out.println("FAIL: the file was not found");
+			System.out.println("FAIL: the file was not found:" + e);
 		} catch (IOException e) {
-			System.out.println("FAIL: communication with file failed: " + e.getMessage());
+			System.out.println("FAIL: communication with file failed: " + e);
 		}
 	}
 

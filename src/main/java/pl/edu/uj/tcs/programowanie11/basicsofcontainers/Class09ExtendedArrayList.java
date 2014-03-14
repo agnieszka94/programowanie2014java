@@ -26,10 +26,14 @@ public class Class09ExtendedArrayList<T> extends ArrayList<T> {
 	Class09ExtendedArrayList() {
 	}
 
-	Class09ExtendedArrayList(Collection<T> col) {
+	Class09ExtendedArrayList(Collection<? extends T> col) {
 		super(col);
 	}
 
+	Class09ExtendedArrayList(int i) {
+		super(i);
+	}
+	
 	public Iterable<T> reversed() {
 		return new Iterable<T>() {
 			public Iterator<T> iterator() {
